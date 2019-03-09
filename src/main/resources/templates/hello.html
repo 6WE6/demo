@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<http lang="en" xmlns:th="http://www.thymeleaf.org"></http>
+<html>
+<head>
+<meta charset="UTF-8"></meta>
+<title>thymeleaf test</title>
+<link rel="stylesheet" th:href="@{/css/hello.css}"></link>
+<!-- <link type="text/css" rel="stylesheet" href="/css/hello.css"> -->
+</head>
+<body>
+<p th:text="'Hello,'+${name}+'!'">test</p>
+</body>
+</html>
